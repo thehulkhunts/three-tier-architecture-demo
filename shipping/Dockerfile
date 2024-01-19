@@ -1,4 +1,4 @@
-#
+##
 # Build
 #
 FROM amazonlinux AS build
