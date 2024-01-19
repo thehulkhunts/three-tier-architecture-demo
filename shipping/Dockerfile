@@ -1,9 +1,9 @@
 #
 # Build
 #
-FROM debian:10 AS build
+FROM amazonlinux AS build
 
-RUN apt-get update && apt-get -y install maven
+RUN yum update -y && yum install maven -y
 
 WORKDIR /opt/shipping
 
